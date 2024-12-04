@@ -5,6 +5,8 @@ header{
     padding: 10px;
     display:inline-block;
     width: 500px;
+    float: right;
+    border-radius: 10px;
 }
 .logo{
     float: right;
@@ -12,29 +14,79 @@ header{
     width: 200px;
 }
 .titulo{
-    font-size:xxx-large;
+    font-size:52px;
     color: rgb(255, 255, 255);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-body{
+.background{
+    border: 1px dashed white;
     background-color: black;
-    border: 1px dashed black;
-    width: 1000px;
+    height: 5000px;
+}
+.promocion{
+    margin: 10px;
+    width: 600px;
+}
+body{
+    background-color: rgb(70, 67, 67);
+    width: 1400px;
     margin: auto;
     padding: 10px;
+    height: 5000px;
 }
 nav{
-
+    background-color: gray;
     clear: both;
     border: 1px dashed rgb(255, 255, 255);
     margin: 10px;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
-main{
+.btn1{
+    margin-right: 200px;
 
 }
-.texto1{
-color: white;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+.btn2{
+    margin-right: 100px;
+}
+.btn3{
+    margin-left: 100px;
+}
+.btn4{
+    margin-left: 200px;
+}
+main{
+    border: 1px dashed white;
+    background-color: rgb(32, 32, 32);
+}
+main section{   
+    border: 1px dashed white;
+    margin: 10px;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.utp{
+    color: white;
+    float: right;
+    border: 1px dashed white;
+    display: inline-block;
+    margin: 50px;
+}
+.utopia{
+    width: 300px;
+}
+.astro{
+    color: white;
+    border: 1px dashed white;
+    margin: 50px;
+    display: inline-block;
+}
+.astroworld{
+    width: 300px;
 }
