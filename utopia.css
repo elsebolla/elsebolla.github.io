@@ -37,6 +37,11 @@ header{
     align-items: center;
     text-align: center;
 }
+.promocion{
+    margin: 10px;
+    margin-top: 40px;
+    width: 600px;
+}
 nav{
     background-color: black;
     border-bottom: 3px solid rgb(255, 255, 255);
@@ -94,4 +99,72 @@ nav{
 .contacto{
     color: white;
     text-decoration: none;
+}
+main{
+    background-color: rgba(63, 63, 63, 0.37);
+    margin: auto;
+    margin-top: 70px;
+    height: auto;
+    border: 1px dashed white;
+    display: flex;
+    width: 1200px;
+}
+.desc{
+    border: 1px dashed wheat;
+    color: rgb(255, 255, 255);
+    float: right;
+    margin: 10px;
+    margin-right: 100px;
+    font-family: "Hanalei_Fill";
+    font-size: 30px;
+}
+.info{
+    color: white;
+    font-size: 20px;
+}
+.playlist{
+    margin: 30px;
+    font-size: 17px;
+    list-style: decimal;
+}
+.demo{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid white;
+    float: left;
+}
+.canciones{
+    list-style: decimal;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.canciones li{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+}
+.canciones li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.canciones li ul.dropdown li{
+    display: block;
+}
+.canciones li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.canciones li a:hover {
+    background: rgba(209, 206, 206, 0.356);
+    display: inline-block;
+}
+.canciones li:hover .dropdown{
+    display: block ;
+}
+p{
+    margin: 0;
 }
