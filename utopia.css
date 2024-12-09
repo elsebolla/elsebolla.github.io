@@ -42,6 +42,11 @@ header{
     margin-top: 40px;
     width: 600px;
 }
+.cesta{
+    margin-top: 90px;
+    width: 50px;
+    float: right;
+}
 nav{
     background-color: black;
     border-bottom: 3px solid rgb(255, 255, 255);

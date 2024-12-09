@@ -156,3 +156,8 @@ aside{
     font-size: 40px;
     font-family: "Hanalei_Fill";
 }
+@media only screen and (max-width: 767px){
+    main img{
+        width: 100px;
+    }
+}

@@ -101,10 +101,43 @@ nav{
     text-decoration: none;
 }
 main{
-    
+    background-color: rgba(63, 63, 63, 0.37);
+    margin: 30px;
+    margin-top: 70px;
+    height: auto;
 }
 .pres{
     color: white;
     font-family: 'Hanalei_Fill';
     font-size: 30px;
 }
+.prod{
+    border: 4px solid gray;
+    display: flex;
+    margin: 10px;
+}
+.camis{
+    width: 300px;
+    margin: 10px;
+}
+.tit{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Hanalei_Fill';
+}
+.eliminar{
+    color: white;
+    font-size: 30px;
+    font-family: 'Hanalei_Fill';
+    margin-left: 50px;
+    background-color: rgba(209, 206, 206, 0.356);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+
