@@ -1,0 +1,157 @@
+*{margin: 1; padding: 0;}
+@font-face {
+    font-family: 'Hanalei_Fill';
+    src: url(/Fuentes/HanaleiFill-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+header{
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    float: right;
+    border-radius: 10px;
+    display: flex;
+}
+.logo{
+    float: right;
+    height: auto;
+    width: 230px;
+}
+.titulo{
+    font-size:50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Hanalei_Fill';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.promocion{
+    margin: 10px;
+    margin-top: 40px;
+    width: 600px;
+}
+.cesta{
+    margin-top: 90px;
+    width: 50px;
+    float: right;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    width: 1200px;
+    padding: 10px;
+    height: 5000px;
+    margin: auto;
+}
+nav{
+    background-color: black;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-family: 'Hanalei_Fill';
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 1180px;
+}
+.btn1{
+    padding: 10px 25px;
+    margin-right: 150px;
+    color: white;
+    display: inline-block;
+}
+.btn1:hover{
+    background-color: rgba(209, 206, 206, 0.356);
+}
+.ropa{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    padding: 10px 20px;
+    margin-right: 50px;
+    display: inline-block;
+}
+.btn2:hover{
+    background-color: rgba(209, 206, 206, 0.356);
+}
+.calzado{
+    color: white;
+    text-decoration: none;
+}
+.btn3{
+    padding: 10px 25px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.btn3:hover{
+    background-color: rgba(209, 206, 206, 0.356);
+}
+.album{
+    color: white;
+    text-decoration: none;
+}
+.btn4{
+    padding: 10px 25px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.btn4:hover{
+    background-color: rgba(209, 206, 206, 0.356);
+}
+.contacto{
+    color: white;
+    text-decoration: none;
+}
+main{
+    color: white;
+    font-family: 'Hanalei_Fill';
+    font-size: 25px;
+    margin: 10px;
+    background-color: rgba(63, 63, 63, 0.37);
+    display: inline-block;
+    width: 50%;
+}
+.pedido{
+    border-bottom: 1px solid white;
+}
+.info{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.datos{
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    font-family: 'Hanalei_Fill';
+}
+.datos p{
+    font-size: 16px;
+}
+.datos a{
+    color: white;
+    text-decoration: none;
+}
+.datos a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.controls{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.boton{
+    width: 20%;
+    color: white;
+    background-color: gray;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Hanalei_Fill';
+    border-radius: 10px;
+}
+

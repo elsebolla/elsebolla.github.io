@@ -7,21 +7,30 @@
 }
 body{
     background-color: rgb(0, 0, 0);
-    width: 1200px;
     padding: 10px;
     height: 5000px;
+    margin: 0;
+}
+
+
+.contenedor{
     margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
 }
 header{
+    border: 1px solid white;
     margin: 20px;
     padding: 10px;
-    width: 500px;
-    float: right;
-    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabezero{
     display: flex;
 }
 .logo{
-    float: right;
     height: auto;
     width: 230px;
 }
@@ -31,94 +40,85 @@ header{
     font-family: 'Hanalei_Fill';
     font-weight: bold;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     text-decoration: none;
 }
-.promocion{
-    margin: 10px;
-    margin-top: 40px;
-    width: 600px;
+header .icon-cart{
+    position: relative;
 }
+header .icon-cart span{
+    color: white;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    right: -10%;
+}
+.icon-cart img
+{
+    width: 50px;
+}
+
 nav{
     background-color: black;
     border-bottom: 3px solid rgb(255, 255, 255);
     font-family: 'Hanalei_Fill';
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
-    width: 1180px;
+    width:100%;
 }
-.btn1{
+.btn{
     padding: 10px 25px;
-    margin-right: 150px;
     color: white;
     display: inline-block;
 }
-.btn1:hover{
+.btn:hover{
     background-color: rgba(209, 206, 206, 0.356);
 }
 .ropa{
     color: white;
     text-decoration: none;
 }
-.btn2{
-    padding: 10px 20px;
-    margin-right: 50px;
-    display: inline-block;
-}
-.btn2:hover{
-    background-color: rgba(209, 206, 206, 0.356);
-}
 .calzado{
     color: white;
     text-decoration: none;
-}
-.btn3{
-    padding: 10px 25px;
-    margin-left: 50px;
-    display: inline-block;
-}
-.btn3:hover{
-    background-color: rgba(209, 206, 206, 0.356);
 }
 .album{
     color: white;
     text-decoration: none;
 }
-.btn4{
-    padding: 10px 25px;
-    margin-left: 150px;
-    display: inline-block;
-}
-.btn4:hover{
-    background-color: rgba(209, 206, 206, 0.356);
-}
 .contacto{
     color: white;
     text-decoration: none;
 }
+
+
 main{
+    border: 1px solid gray;
     background-color: rgba(63, 63, 63, 0.37);
     margin: 30px;
     margin-top: 70px;
-    height: auto;
 }
 .pres{
     color: white;
     font-family: 'Hanalei_Fill';
     font-size: 30px;
+    margin: 10px;
 }
 .prod{
-    border: 4px solid gray;
     display: flex;
     margin: 10px;
 }
 .camis{
-    width: 300px;
+    width: 400px;
     margin: 10px;
+    border: 1px solid white;
 }
 .tit{
     margin: 10px;
@@ -130,7 +130,7 @@ main{
     color: white;
     font-size: 30px;
     font-family: 'Hanalei_Fill';
-    margin-left: 50px;
+    margin-left: 0px;
     background-color: rgba(209, 206, 206, 0.356);
     display: inline-block;
     padding: 10px 20px;
@@ -139,5 +139,29 @@ main{
 .link{
     color: white;
     text-decoration: none;
+}
+.compra{
+    border: 1px solid white;
+    display: flex;
+}
+.total{
+    margin: 20px;
+    color: white;
+    font-family: 'Hanalei_Fill';
+    font-size: 30px;
+    padding: 10px 20px;
+}
+.pedido{
+    color: white;
+    font-family: 'Hanalei_Fill';
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 70px;
+    background-color: rgba(209, 206, 206, 0.356);
+    border-radius: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+
 }
 
