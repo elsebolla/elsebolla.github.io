@@ -1,33 +1,127 @@
 <!DOCTYPE html>
 <html>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <nav>
-    <div class="btn1">
+    <div class="btn">
         <a href="ropa.html" class="ropa">Ropa</a>
     </div>
-    <div class="btn2">
+    <div class="btn">
         <a href="calzado.html" class="calzado">Calzado</a>
     </div>
-    <div class="btn3">
+    <div class="btn">
         <a href="canciones.html" class="album">Albumes y Discos</a>
     </div>
-    <div class="btn4">
+    <div class="btn">
         <a href="contacto.html" class="contacto">Contacto</a>
     </div>
 </nav>
 
 <head>
     <title>CACTUS JACK</title>
-    <link rel="stylesheet" href="eskaria1.css">
+    <link rel="stylesheet" href="eskaria2.css">
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="img/cactus-jack-logo-1.jpg" alt="logo">
-        <a href="index.html" class="titulo">CACTUS JACK</a>
-        <a href="saskia.html" class="cesto">
-            <img class="cesta" src="img/cesta-de-la-compra.png" alt="">
-        </a>
-    </header>
-    <img class=promocion src="img/BlackFriday.jpg" alt="Jordan">
+    <div class="contenedor">
+        <header>
+            <div class="cabezero">
+                <img class="logo" src="img/cactus-jack-logo-1.jpg" alt="logo">
+                <a href="index.html" class="titulo">CACTUS JACK</a>
+            </div>
+            <div class="icon-cart">
+                <a href="saskia.html"><img src="img/cesta-de-la-compra.png" alt=""></a>
+                <span>0</span>
+            </div>
+            <div class="promocion">
+                <img src="img/BlackFriday.jpg" alt="">
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <h1 class="pedido">PEDIDO</h1>
+        <h2>Tus productos</h2>
+        <div class="productos">
+
+            <div class="columnas">
+
+                <div class="col">
+                    <p>PRODUCTO</p> <br>
+                    Siren Tee <br>
+                    Air Jordan 1 Low - Reverse Olive <br>
+                    Utopia vinyl album
+
+                </div>
+
+                <div class="col">
+                    <p>PRECIO</p> <br>
+                    12.99 &euro; <br>
+                    159.99 &euro; <br>
+                    39.99 &euro;
+                </div>
+
+                <div class="col">
+                    <p>CANTIDAD</p><br>
+                    2 <br>
+                    1 <br>
+                    2 <br>
+                    TOTAL:
+                </div>
+
+                <div class="col">
+                    <p>TOTAL</p> <br>
+                    25.98 &euro; <br>
+                    159.99 &euro; <br>
+                    78.98 &euro; <br>
+                    264.95 &euro;
+                </div>
+
+            </div>
+        </div>
+        <a href="saskia.html"><input class="boton" type="submit" value="Cambiar cesta"></a>
+        <h2>Tus Datos</h2>
+        <div class="datos">
+
+            <div class="info">
+
+                <div class="col">
+                    Nombre: <br>
+                    <br>
+                    Apellidos: <br>
+                    <br>
+                    direccion: <br>
+                    <br>
+                    ciudad: <br>
+                    <br>
+                    Codigo-Postal: <br>
+                    <br>
+                    Provincia: <br>
+                    <br>
+                    E-Mail: <br>
+
+                </div>
+
+
+                <div class="col">
+                    John Sebastian <br>
+                    <br>
+                    Perez Rivas <br>
+                    <br>
+                    Urrengoerrota 2,3B <br>
+                    <br>
+                    Gernika <br>
+                    <br>
+                    48300 <br>
+                    <br>
+                    Bizkaia <br>
+                    <br>
+                    jontxi@gmail.com
+                </div>
+            </div>
+        </div>
+        <a href="eskaria1.html"><input class="boton" type="submit" value="Cambiar datos"></a>
+        <div class="siguiente">
+            <a href="eskaria3.html"><input class="boton" type="submit" value="continuar"></a>
+        </div>
+    </main>
 </body>
