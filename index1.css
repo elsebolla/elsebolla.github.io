@@ -15,7 +15,11 @@
     display: table;
 
 }
-
+.header::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -36,10 +40,10 @@ body {
     padding: 15px;
     font-family: 'Hanalei_Fill';
     font-size: 30px;
-    border: 1px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .izq {
@@ -71,15 +75,14 @@ header .icon-cart span {
     position: absolute;
     top: 70%;
     right: -10%;
+
 }
 
 .icon-cart img {
     width: 50px;
 }
 
-main{
-    background-color: rgba(66, 65, 65, 0.5);
-}
+
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -89,7 +92,7 @@ main{
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color: #636363;
+    background-color: #6363635b;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -98,9 +101,8 @@ main{
     background-color: #ff0000;
     color: black;
 }
-
 .aside {
-    background-color: #636363;
+    background-color: #6363635b;
     padding: 15px;
     color: #ffffff;
     text-align: center;
@@ -116,7 +118,32 @@ main{
     padding: 15px;
     
 }
-
+.añadir{
+    width: 70%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    border: none;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Hanalei_Fill';
+    border-radius: 10px;
+}
+.añadir:hover{
+    background-color: #ff0000;
+    color: black;
+}
+.aside img{
+    width: 100%;
+}
+.video{
+    max-width: 30rem;
+    margin: auto;
+}
+.video iframe{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
