@@ -114,36 +114,13 @@ main{
     font-size: 25px;
     margin: 10px;
     background-color: rgba(63, 63, 63, 0.37);
+    border: 1px solid white ;
 }
 .pedido{
     border-bottom: 2px solid white;
     margin: 15px;
 }
 h2{
-    font-size: 20px;
+    font-size: 25px;
     margin: 15px;
-}
-.datos{
-    border: 1px solid white;
-    margin: 15px;
-    padding: 20px;
-    display: flex;
-    width: 50%;
-}
-.col{
-    margin: 30px;
-}
-.cvc{
-    width: 20%;
-}
-.boton{
-    margin: 15px;
-    width: 10%;
-    color: white;
-    background-color: gray;
-    border: none;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Hanalei_Fill';
-    border-radius: 10px;
 }
