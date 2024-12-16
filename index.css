@@ -110,6 +110,8 @@ header .icon-cart span {
     color: black;
 }
 .aside {
+    width: 100%;
+    margin: auto;
     background-color: #6363635b;
     padding: 15px;
     color: #ffffff;
@@ -161,10 +163,11 @@ header .icon-cart span {
     text-decoration: none;
 }
 @media only screen and (min-width: 600px) {
-
+    
     /* For tablets: */
     .col-s-1 {
         width: 8.33%;
+        
     }
 
     .col-s-2 {
@@ -262,4 +265,5 @@ header .icon-cart span {
     .col-12 {
         width: 100%;
     }
+    
 }
