@@ -15,6 +15,7 @@
 body{
     background-color: rgb(0, 0, 0);
     padding: 10px;
+    height: 5000px;
     margin: 0;
 }
 
@@ -34,11 +35,11 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
-.cabezero{
-    display: flex;
-}
 .promocion img{
     width: 400px;
+}
+.cabezero{
+    display: flex;
 }
 .logo{
     height: auto;
@@ -73,12 +74,7 @@ header .icon-cart span{
 {
     width: 50px;
 }
-.tipo{
-    display: flex;
-    border: 1px solid white;
-    justify-content: space-between;
-    border-bottom: 4px solid white;
-}
+
 nav{
     background-color: black;
     border-bottom: 3px solid rgb(255, 255, 255);
@@ -118,31 +114,14 @@ main{
     margin-top: 70px;
     height: auto;
     font-family: 'Hanalei_Fill';
-}
-.productos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.camis{
-    width: 180px;
-    margin: 20px;
-    border: 1px solid white;
-}
-.tipos{
-    border: 1px solid white;
-    background-color: black;
-    border-bottom: 3px solid rgb(255, 255, 255);
-    font-family: 'Hanalei_Fill';
-    display: flex;
-    justify-content: center;
-    width: 1138px;
-}
-.tit{
     color: white;
-    font-family: 'Hanalei_Fill';
-    text-align: center;
-    margin-top: -20px;
+}
+h2{
+    font-size: 30px;
+}
+.formulario{
+    width: 30%;
+    height: 200px;
 }
 .footer {
     background-color: #636363;
@@ -152,20 +131,11 @@ main{
     padding: 15px;
     
 }
-
 @media only screen and (max-width: 767px){
     main img{
         width: 100px;
     }
-    .tipo{
-        font-size: 14px;
-    }
-    .productos{
-        display: grid;
-        grid-template: auto / 1fr 1fr;
-        justify-content: space-between;
-    }
-    .camis{
-        width: 80%;
+    .formulario{
+        width: 95%;
     }
 }
