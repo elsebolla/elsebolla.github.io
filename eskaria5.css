@@ -28,7 +28,7 @@ body{
     padding-top: 10px;
 }
 header{
-    border: 1px solid white;
+    flex-wrap: wrap;
     margin: 20px;
     padding: 10px;
     display: flex;

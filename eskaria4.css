@@ -28,10 +28,10 @@ body{
     padding-top: 10px;
 }
 header{
-    border: 1px solid white;
     margin: 20px;
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -146,4 +146,18 @@ h2{
     font-size: 20px;
     font-family: 'Hanalei_Fill';
     border-radius: 10px;
+}
+@media only screen and (max-width: 767px){
+    main img{
+        width: 100px;
+    }
+}
+.datos{
+    width: 95%;
+}
+.col{
+    font-size: 20px;
+}
+.boton{
+    width: 30%;
 }
