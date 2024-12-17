@@ -132,13 +132,9 @@ main{
     color: white;
     font-size: 20px;
 }
-.foto img{
-    width: 150%;
-    height: 80%;
-}
 .demo{
-    width: 1000px;
-    height: 500px;
+    width: 40%;
+    height: 20%;
     float: left;
 }
 .canciones{
