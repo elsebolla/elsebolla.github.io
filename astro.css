@@ -167,16 +167,22 @@ p{
     font-size: 20px;
 }
 .compra{
-    font-size: 30px;
-    margin-right: 60px;
-    display: inline-block;
-    background-color: rgb(87, 84, 84);
-    padding: 15px 30px;
-    border-radius: 10px;
+    width: 100%;
 }
+
 .cesto{
+    font-size: 1rem;
+    background-color: rgb(87, 84, 84);
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
+
+}
+.cesto:hover{
+    background-color: red;
+    color:black;
 }
 aside{
     border: 1px solid white;
