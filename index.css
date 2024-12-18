@@ -195,8 +195,15 @@ header .icon-cart span {
 .link{
     text-decoration: none;
 }
-@media only screen and (min-width: 600px) {
-    
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        position: absolute;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
     /* For tablets: */
     .col-s-1 {
         width: 8.33%;
@@ -249,6 +256,11 @@ header .icon-cart span {
 }
 
 @media only screen and (min-width: 768px) {
+
+    
+    [class*="col-6 col-s-9"]{
+        width: 100%;
+    }
 
     /* For desktop: */
     .col-1 {

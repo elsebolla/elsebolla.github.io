@@ -113,14 +113,39 @@ main{
     margin: 10px;
     color: white;
 }
+.cosos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.art{
+    width: 33%;
+    text-align: center;
+}
+.art img{
+    width: 100%;
+}
+.olive{
+    position: relative;
+    top: 10%;
+}
+.desc{
+    position: relative;
+    top: 16%;
+}
+.ofertas{
+    display: flex;
+}
 .video{
-    
+    max-width: 30rem;
+    margin: auto;
+}
+.video{
     max-width: 30rem;
     margin: auto;
 }
 .video iframe{
     aspect-ratio: 16 / 9;
-    width: 100%;
+    width: 95%;
 }
 .section3{
     margin: 15px;
@@ -154,4 +179,22 @@ main{
     font-size: 12px;
     padding: 15px;
     
+}
+@media only screen and (max-width: 767px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main img{
+        width: 100px;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .section3{
+        width: 100%;
+    }
 }
