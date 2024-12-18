@@ -185,8 +185,9 @@ main{
     padding: 15px;
     
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 600px){
     main{
+        display: flex;
         flex-wrap: wrap;
     }
     main img{
@@ -197,6 +198,20 @@ main{
     }
     .section2{
         width: 100%;
+    }
+    .section3{
+        width: 100%;
+    }
+}
+@media only screen  and (min-width: 600px) (max-width: 768px){
+    main{
+        flex-wrap: wrap;
+    }
+    .section1{
+        width: 25%;
+    }
+    .section2{
+        width: 60%;
     }
     .section3{
         width: 100%;
