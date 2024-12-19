@@ -8,10 +8,12 @@
     font-weight: bold;
     font-style: bold;
 }
+
 body {
     background-color: black;
     margin: auto;
 }
+
 .header {
     color: #ffffff;
     padding: 15px;
@@ -36,13 +38,14 @@ body {
     width: 400px;
 }
 
-.cactus{
+.cactus {
     color: white;
     text-decoration: none;
     font-size: 40px;
     align-items: center;
     display: flex;
 }
+
 header .icon-cart {
     position: relative;
 }
@@ -65,30 +68,36 @@ header .icon-cart span {
 .icon-cart img {
     width: 50px;
 }
-main{
+
+main {
     font-family: 'Hanalei_Fill';
     display: grid;
     grid-template: auto auto / repeat(12, 1fr);
     row-gap: 15px;
 }
+
 .section1 {
     grid-row: 1/2;
     grid-column: 1/ span 3;
     max-width: 100%;
 }
+
 .section2 {
     grid-row: 1/2;
     grid-column: 4 / span 6;
-    
+
 }
+
 .section3 {
     grid-row: 1/2;
     grid-column: 10/span 3;
 }
-.section1{
+
+.section1 {
     color: white;
     margin: 15px;
 }
+
 .section1 ul {
     list-style-type: none;
     margin: 0;
@@ -102,63 +111,78 @@ main{
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
 .section1 li:hover {
     background-color: #ff0000;
     color: black;
 }
-.link{
+
+.link {
     text-decoration: none;
 }
-.section2{
+
+.section2 {
     margin: 10px;
     color: white;
 }
-.cosos{
+
+.cosos {
     display: flex;
     flex-wrap: wrap;
 }
-.art{
+
+.art {
     width: 33%;
     text-align: center;
 }
-.art img{
+
+.art img {
     width: 100%;
 }
-.olive{
+
+.olive {
     position: relative;
     top: 10%;
 }
-.desc{
+
+.desc {
     position: relative;
     top: 16%;
 }
-.ofertas{
+
+.ofertas {
     display: flex;
 }
-.video{
+
+.video {
     max-width: 30rem;
     margin: auto;
 }
-.video{
+
+.video {
     max-width: 30rem;
     margin: auto;
 }
-.video iframe{
+
+.video iframe {
     aspect-ratio: 16 / 9;
     width: 95%;
 }
-.section3{
+
+.section3 {
     margin: 15px;
     background-color: #6363635b;
     color: white;
     text-align: center;
     font-size: 14px;
-    
+
 }
-.section3 img{
+
+.section3 img {
     width: 100%;
 }
-.añadir{
+
+.añadir {
     padding: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.555);
@@ -168,33 +192,48 @@ main{
     font-family: 'Hanalei_Fill';
     border-radius: 10px;
 }
-.añadir:hover{
+
+.añadir:hover {
     background-color: #ff0000;
     color: black;
 }
+
 .footer {
     background-color: #636363;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
     padding: 15px;
-    
+
 }
-@media only screen and (max-width: 767px){
-    main{
-        display: flex;
-        flex-wrap: wrap;
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .section1 {
+            grid-column: span 1;
+            grid-row: 1;
+        }
+
+        .section2 {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        .section3 {
+            grid-column: 1;
+            grid-row: 3;
+        }
     }
-    main img{
-        width: 100px;
+}
+@media only screen and (max-width: 768px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .section1{
-        width: 100%;
-    }
-    .section2{
-        width: 100%;
-    }
-    .section3{
-        width: 100%;
+        
     }
 }
